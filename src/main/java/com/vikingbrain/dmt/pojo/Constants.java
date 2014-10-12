@@ -26,7 +26,7 @@ import java.util.List;
 public class Constants {
 	
 	/** Enable it if you want the application to print logs. This constant must be false when released to Production. */
-	public static boolean DEBUG_ENABLED = false;
+	public static boolean DEBUG_ENABLED = true;
 		
 	/** String representing the primary key. */
 	public static final String PRIMARY_KEY_ID = "_id";
