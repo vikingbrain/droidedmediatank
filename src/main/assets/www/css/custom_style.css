@@ -1,0 +1,26 @@
+ul, ol, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*li img {display: block;}*/
+
+
+/*para los ol img {display:inline;}*/
+
+
+ul.clase1 img {    
+    display: block;
+}
+
+ol.clase2 img {      /*ol.clase2 li {    */
+/*    display:inline;*/
+    float: left;
+}
+
+/*
+.ui-grid-b ul {
+    width  : 100%;
+    height : auto;
+}*/

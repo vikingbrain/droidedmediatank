@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011-2014 Rafael Inigo
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+	
+	<string name="app_name">Droided Media Tank</string>
+	<!-- Latest html with the information about the app -->
+	<string name="url_info_web">http://m.vikingbrain.com/dmt/info_en_3.0.0.html</string>							    
+		
+	<!-- Titles for Dashboard and top bar -->
+    <string name="title_home">Home</string>    
+    <string name="title_file_browser">File Browser</string>	
+	<string name="title_web_clients">Web Clients</string>
+	<string name="title_disk_usage">Disk Usage</string>	
+	<string name="title_remote_control">Remote Control</string>
+	<string name="title_services">NMT Services</string>
+	<string name="title_playlist">Music Playlist</string>
+	<string name="title_settings">Settings</string>	
+	<string name="title_info">Info</string>
+	
+	<!-- Commons -->
+	<string name="title_ok">OK</string>
+	<string name="title_close">Close</string>	
+	<string name="title_loading">Loading...</string>
+	<string name="title_web_browser">Web Browser</string>
+	
+ 	<!-- For imagenes -->
+ 	<string name="description_bar_separator">Bar separator</string>
+    <string name="description_about">Info</string>
+    <string name="description_home">Home</string>
+    <string name="description_music">Music</string>
+
+	<!-- PREFERENCES SCREEN -->
+	<string name="pref_dmt">DMT settings</string>
+	<string name="pref_device_name">Name</string>
+	<string name="pref_optional_name">Optional personal name</string>	
+	<string name="pref_nmt_type">Model</string>
+	<string name="pref_nmt_type_select_suggestion">Select your model</string>
+	<string name="pref_ftp_part">File browser via FTP</string>
+	<string name="pref_ftp_address">NMT IP or domain name</string>
+	<string name="pref_ftp_port">Port</string>
+	<string name="pref_textPortDefault">optional (default is 21)</string>
+	<string name="error_invalid_port_number">Port number should be between 1 and 65535</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	
+	<!-- Preferences Profiles -->
+	<string name="profile">Profile</string>	
+	<string name="pref_devices">NMT Devices</string>
+	<string name="menu_edit">Edit</string>
+	<string name="menu_new">New</string>		
+	<string name="pref_add_device">Add NMT Device</string>	
+	<string name="pref_unspecified_name">Unnamed</string>
+	<string name="pref_unspecified_model">No model</string>
+	<string name="pref_unspecified_ip">No IP or Domain</string>
+	
+	<string name="pref_stream_part">Streaming from NMT</string>
+	<string name="pref_myihome_name">myiHome</string>
+	<string name="pref_myihome_name_summary_inicio">NMT media streamer app</string>
+	<string name="myihome_not_available_for_device">Not available for your nmt model</string>		
+	<string name="pref_ftp_drive_name">NMT Drive Name</string>
+	<string-array name="ftp_drive_name_types">
+		<item>Auto</item>
+        <item>SATA_DISK</item>
+        <item>HARD_DISK</item>
+        <item>USB_DRIVE</item>
+        <item>NETWORK_SHARE</item>
+    </string-array>
+	<string-array name="ftp_drive_name_values">
+		<item>/opt/sybhttpd/localhost.drives</item>
+        <item>/opt/sybhttpd/localhost.drives/SATA_DISK</item>
+        <item>/opt/sybhttpd/localhost.drives/HARD_DISK</item>
+        <item>/opt/sybhttpd/localhost.drives/USB_DRIVE</item>
+        <item>/opt/sybhttpd/localhost.drives/NETWORK_SHARE</item>
+    </string-array>
+	<string name="pref_ftp_drive_name_summary_inicio">(It\'s used to calculate NMT real file paths. Adjust only if there is not name of disk drives in your ftp root)\n</string>
+	<string name="pref_llink_name">Llink</string>
+	<string name="pref_llink_name_summary_inicio">Check if Llink media streamer app is installed on your NMT. You can install it using Community software Installer CSI\n</string>		
+	<string name="pref_llink_port">Llink port</string>	
+	<string name="pref_llinkPortDefault">optional (default is 8001)</string>
+	
+	<string name="pref_web_clients_part">Web clients via HTTP</string>
+	<string name="pref_address_web_clients">NMT IP or domain name</string>
+	<string name="pref_address_web_clients_summary_ini">(Specify only if you want to use another ip or domain for web clients)\n</string>	
+	<string name="pref_default_zoom">Default zoom</string>
+	<string name="pref_zoom_far">Far</string>
+	<string name="pref_zoom_medium">Medium</string>
+	<string name="pref_zoom_close">Close</string>
+	<string name="pref_manage_apps">Manage web clients</string>
+	<string name="pref_manage_apps_summary">Configure urls and ports, show or hide links</string>
+
+	<string-array name="nmt_types">
+        <item>Popcorn Hour A100</item>
+        <item>Popcorn Hour A110</item>
+        <item>Popcorn Hour A200</item>
+        <item>Popcorn Hour A210</item>
+        <item>Popcorn Hour A300</item>
+        <item>Popcorn Hour A400</item>
+        <item>Popcorn Hour B110</item>
+        <item>Popcorn Hour C200</item>
+        <item>Popcorn Hour C300</item> 
+        <item>PopBox 3D</item>
+        <item>PopBox V8</item>        
+        <item>eGreat</item>
+        <item>Digitek HDX</item>
+        <item>Kaiboer</item>        
+        <item>Other</item>
+    </string-array>
+	
+	<string-array name="zoom_types_entries">
+        <item>Far</item>
+        <item>Medium</item>
+        <item>Close</item>
+    </string-array>
+	<string-array name="zoom_types_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+        	
+	<!-- Screen Manage web clients -->
+	<string name="label_save">Save</string>		
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+
+	<string name="label_name">Name</string>
+	<string name="label_url">Url</string>
+	<string name="label_url_ending">Url ending</string>		
+	<string name="label_authentication">Authenticate</string>
+	<string name="label_authentication_summary">Check if service is password protected</string>
+	<string name="url_end_hint">:port/pageName</string>
+	<string name="msg_invalid_name">Invalid Name</string>
+	<string name="msg_invalid_urlEnd">Invalid Url</string>
+	<string name="menu_visibility">Change visibility</string>
+	
+    <string name="title_authenticationDialog">Sign in to %1$s - %2$s</string>
+    <string name="proceed">Proceed</string>
+	<string name="continue_title">Continue</string>
+	<string name="cancel">Cancel</string>
+		
+	<string name="sslWarning">Security warning</string>
+	<string name="sslWarningsHeader">There are problems with the security certificate for this site.</string>
+	<string name="sslUntrusted">This certificate is not from a trusted authority.</string>
+	<string name="sslIDMismatch">The name of the site does not match the name on the certificate.</string>
+	<string name="sslExpired">This certificate has expired.</string>
+	<string name="sslNotYetValid">This certificate is not valid yet.</string>
+		
+	<string name="label_delete">Delete</string>
+	<string name="label_restore_url">Get default Url</string>	
+	<string name="msg_added_fav_ok">Added to the list</string>
+
+	<!-- Screen Web Clients -->	            
+	
+	<!-- Commons for all web clients information -->
+	<string name="title_about_link">About %s</string>
+	<string name="homepage">Homepage</string>
+	<string name="installation">Installation</string>		
+	<string name="csi_installer_title">CSI Community Software Installer</string>
+	<string name="csi_installer_url">http://www.networkedmediatank.com/showthread.php?tid=64695</string>
+		
+	<!-- Web clients i18n information -->	
+    <string name="layout_transmission">Transmission</string>
+	<string name="info_transmission">Warning! Transmission installed via CSI Installer \':9091/transmission/web/#files\' or \':9091/transmission/web\'. Default url \':8077/transmission/web\' should work if Transmission was installed by default in your NMT. Transmission is a bittorrent client runs natively on multiple operating systems.</string>
+	<string name="info_transmission_homepage">http://transmissionbt.com</string>
+	<string name="info_transmission_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+    
+    <string name="layout_btcgi">BitTorrent</string> <!-- BTPD – the bittorrent protocol daemon -->
+	<string name="info_btcgi">BitTorrent (Btpd Client) (the BitTorrent Protocol Daemon Client) is a web client utility for sharing files over the BitTorrent network protocol.</string>
+	<string name="info_btcgi_homepage">http://github.com/btpd/btpd/wiki</string>
+	<string name="info_btcgi_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+        
+    <string name="layout_nzbget">NZBGet</string> <!-- newsgrabber for nzb files -->
+	<string name="info_nzbget">Warning! NZBget installed via CSI Installer \':9999/NZBget_web/\'. Default url \':8066/\' should work if NZBget was installed by default in your NMT. NZBGet is a Usenet Client newsgrabber for nzb files. It supports automatic par-check/-repair, unpack and has a web-interface. NZBGet requires low system resources and runs great on routers, NAS-devices and media players.</string>
+	<string name="info_nzbget_homepage">http://nzbget.sourceforge.net</string>
+	<string name="info_nzbget_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_casgle">Casgle i-DVR</string>
+	<string name="info_casgle">Casgle i-DVR simplifies the management of podcast content download to portable media player.</string>
+	<string name="info_casgle_homepage">http://www.casgle.com</string>
+	<string name="info_casgle_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_amule">aMule</string>
+	<string name="info_amule">aMule is an eMule-like client for the eD2k and Kademlia networks, supporting multiple platforms.</string>
+	<string name="info_amule_homepage">http://www.amule.org/index.php/Main_Page</string>
+	<string name="info_amule_installation">http://www.networkedmediatank.com/showthread.php?tid=5609</string>
+		
+	<string name="layout_c200_remote">c200-remote</string>
+	<string name="info_c200_remote">c200-remote allows send remote contol keys/actions to your nmt.</string>
+	<string name="info_c200_remote_homepage">http://www.networkedmediatank.com/showthread.php?tid=13161</string>
+	<string name="info_c200_remote_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_csi_gaya">CSI Gaya</string>
+	<string name="info_csi_gaya">CSI Gaya allows to install software in your nmt via your browser. Install applications easily with this web interface.</string>
+	<string name="info_csi_gaya_homepage">http://www.networkedmediatank.com/showthread.php?tid=13161</string>
+	<string name="info_csi_gaya_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_download_manager">Download Manager</string>
+	<string name="info_download_manager">Download Manager is a software to download files from sites like rapidshare.com or netload.in.</string>
+	<string name="info_download_manager_homepage">http://networkedmediatank.com/showthread.php?tid=10592</string>
+	<string name="info_download_manager_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_etvnet">eTVnet</string>
+	<string name="info_etvnet">eTVnet allows to view the Russian TV archive stored by eTVnet provider.</string>
+	<string name="info_etvnet_homepage">http://code.google.com/p/pch-etvnet</string>
+	<string name="info_etvnet_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_feedtime">FeedTime</string>
+	<string name="info_feedtime">FeedTime automatically download TV oriented NZB files from RSS and feed to nzbget.</string>
+	<string name="info_feedtime_homepage">http://code.google.com/p/feedtime</string>
+	<string name="info_feedtime_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_filemanager">FileManager</string>
+	<string name="info_filemanager">FileManager is a small file manager utility which will be helpful to browse the contents of PCH including the / directory.</string>
+	<string name="info_filemanager_homepage">http://www.networkedmediatank.com/showthread.php?tid=17409</string>
+	<string name="info_filemanager_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_kartinatv">KartinaTV</string>
+	<string name="info_kartinatv">KartinaTV allows to watch on Popcorn Hour family the IP-TV channels broadcast by Katrina.TV provider.</string>
+	<string name="info_kartinatv_homepage">http://code.google.com/p/pch-kartinatv</string>
+	<string name="info_kartinatv_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_nmj_manager">NMJManager</string>
+	<string name="info_nmj_manager">NMJManager is a web based editor for your NMJ Database.</string>
+	<string name="info_nmj_manager_homepage">http://www.networkedmediatank.com/showthread.php?tid=46208</string>
+	<string name="info_nmj_manager_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_oversight">Oversight</string>
+	<string name="info_oversight">Oversight is a minimalistic Jukebox that doesn\'t need a PC. By default it shows the most recently downloaded content first.</string>
+	<string name="info_oversight_homepage">http://code.google.com/p/oversight</string>
+	<string name="info_oversight_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_phpterm">phpterm</string>
+	<string name="info_phpterm">PHPterm is a terminal/shell emulator for PHP which let you execute shell commands just like in a shell, but all within your browser window over the HTTP protocol. It aims to provide the look and feel of konsole, the KDE terminal.</string>
+	<string name="info_phpterm_homepage">http://phpterm.sourceforge.net</string>
+	<string name="info_phpterm_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_synk">SYNK</string>
+	<string name="info_synk">SYNK is a graphical user interface / GUI for rsync. It has been built with PHP and javascript and runs over a web browser.</string>
+	<string name="info_synk_homepage">http://www.networkedmediatank.com/showthread.php?tid=41963</string>
+	<string name="info_synk_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_pwrc">Remote Control</string>	<!--Pure Web Remote Control PWRC-->
+	<string name="info_pwrc">Web Remote Control provides NMT with an alternative/PDA based remote control to listen audio with TV switched off.</string>
+	<string name="info_pwrc_homepage">http://sphinx-soft.com/tools/pwrc.html</string>
+	<string name="info_pwrc_installation">http://www.networkedmediatank.com/wiki/index.php/Web_Remote_Control</string>
+	
+	<string name="layout_sysinfo">Sysinfo</string>
+	<string name="info_sysinfo">Sysinfo is an extension for NMTs. This PHP-Script gives you an overview about your system stats, f.e. free disk space, uptime, ip-address, firmware-version, a.s.o.</string>
+	<string name="info_sysinfo_homepage">http://www.hdd-player.de/syabas/showthread.php?tid=3574</string>
+	<string name="info_sysinfo_installation">http://www.networkedmediatank.com/wiki/index.php/Sysinfo</string>
+	
+	<string name="layout_torrentwatch">TorrentWatch-X</string>
+	<string name="info_torrentwatch">TorrentWatch-X is a web based tool to automate downloads of tv shows via torrents and rss. Based on the torrentwatch project (now known as NMTDVR).</string>
+	<string name="info_torrentwatch_homepage">http://code.google.com/p/torrentwatch-x</string>
+	<string name="info_torrentwatch_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_mediatankcontroller">MediatankController</string>
+	<string name="info_mediatankcontroller">MediatankController is completely free. Use the virtual remote or browse the contents of your NMT and directly start the file you want to play.</string>
+	<string name="info_mediatankcontroller_homepage">http://www.mediatankcontroller.com</string>
+	<string name="info_mediatankcontroller_installation">http://www.networkedmediatank.com/showthread.php?tid=20073</string>
+	
+	<string name="layout_nmtdvr">NMTDVR</string>
+	<string name="info_nmtdvr">NMTDVR is an automated Tv Show and Movie Downloader that uses Usenet and Torrents.</string>
+	<string name="info_nmtdvr_homepage">http://www.networkedmediatank.com/showthread.php?tid=38218</string>
+	<string name="info_nmtdvr_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_ipkg_web">IPKG web</string>
+	<string name="info_ipkg_web">IPKG is a very lightweight package management system. It also allows for dynamic installation/removal of packages on a running system.</string>
+	<string name="info_ipkg_web_homepage">http://www.networkedmediatank.com/showthread.php?tid=45424</string>
+	<string name="info_ipkg_web_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+
+	<string name="layout_couchpotato">Couchpotato</string>
+	<string name="info_couchpotato">Couchpotato is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours.</string>
+	<string name="info_couchpotato_homepage">http://couchpotatoapp.com</string>
+	<string name="info_couchpotato_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_musicbrowser">Music Browser</string>
+	<string name="info_musicbrowser">Music Browser is a light-weight web-based browser and streamer for you music collection.</string>
+	<string name="info_musicbrowser_homepage">http://musicbrowser.sf.net</string>
+	<string name="info_musicbrowser_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<string name="layout_sickbeard">Sick Beard</string>
+	<string name="info_sickbeard">Sick Beard is a PVR application that downloads and manages your TV shows.</string>
+	<string name="info_sickbeard_homepage">http://sickbeard.com</string>
+	<string name="info_sickbeard_installation">Install this application in your Networked Media Tank using NMT Community Software Installer</string>
+	
+	<!-- Dialog configure app -->    
+	<string name="require_config_no_profiles">It is required to set up a profile for your device.</string>
+	<string name="require_config_profile_model">It is required to specify a Model for this profile</string>	 
+	<string name="require_config_profile_ipdomain">It is required to specify an IP or a Domain Name for this profile</string>	 
+	<string name="require_config_profile_ftp_user">It is required to specify a FTP Username for this profile</string>	 
+	<string name="require_config_profile_ftp_password">It is required to specify a FTP Password for this profile</string>					
+
+	<!-- EULA -->
+	<string name="eula_title">License</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Refuse</string>	
+
+	<!-- File broser from OI File Manager -->
+	<string name="title_nmj_excludes">NMJ. Jukebox excludes from scanning</string>
+	<string name="exclude_no_video_on">No Video</string>
+	<string name="exclude_no_video_off">No Video</string>
+	<string name="exclude_no_music_on">No Music</string>
+	<string name="exclude_no_music_off">No Music</string>
+	<string name="exclude_no_photo_on">No Photo</string>
+	<string name="exclude_no_photo_off">No Photo</string>
+	<string name="exclude_no_all_on">No All</string>
+	<string name="exclude_no_all_off">No All</string>
+	<string name="exclude_on">NMJ exclude activated</string>
+	<string name="exclude_off">NMJ exclude deactivated</string>
+	<string name="titulo_dialog_get_pro_for_feature_nmj">Changing values of NMJ Exlude is only supported in Pro version</string>
+	<string name="title_start_new_queue_nmt">Playing new queue on NMT</string>
+	<string name="title_start_new_queue_nmt_done">Started new queue on NMT with %1$d music files</string>
+	<string name="title_add_music_nmt_queue">Adding music files to NMT queue</string>
+	<string name="title_add_music_nmt_queue_done">Added %1$d music files to NMT queue</string>
+	<string name="title_error_no_simple_music_files_found">Not found any simple music file</string>
+	<string name="title_starting_music_file">Playing first file</string>
+	<string name="title_adding_files_nmt_queue">Adding music files to NMT queue</string>
+	<string name="title_create_upload_nmt_playlist">Creating and uploading playlist to NMT</string>
+	<string name="title_create_upload_nmt_playlist_done">Upload completed</string>
+		
+	<string name="menu_play_all_nmt">Play all on NMT</string>
+	<string name="menu_enqueue_all_nmt">Add all to NMT queue</string>
+	<string name="menu_create_upload_playlist_nmt">Create playlist directly on NMT (openable on NMT)</string>
+	<string name="menu_play_all_android_myihome">Play all in Android via myiHome</string>
+	<string name="menu_play_all_android_llink">Play all in Android via LLink</string>
+
+	<string name="menu_run">Run file</string>
+	<string name="menu_recent_run">Recent</string>
+	<string name="menu_nmt_mode">NMT audio mode</string>
+	<string name="menu_nmt_audio_foreground">Foreground audio NMT</string>
+	<string name="menu_nmt_audio_background">Background audio NMT</string>
+
+    <string name="menu_new_folder">New Folder</string>
+    <string name="menu_console">Console</string>
+    <string name="menu_nmj_exclude">Manage NMJ Exclude</string>
+
+    <!-- Multi select option menu -->
+    <string name="menu_multi_select">Multi Select</string>
+        
+    <string name="menu_delete">Delete</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_move">Move</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_include_in_media_scan">Include in media scan</string>
+    <string name="menu_exclude_from_media_scan">Exclude from media scan</string>    
+    <string name="menu_create_folder">Create folder</string>
+    <string name="menu_playlist_myihome">Play all music via myiHome</string>
+    <string name="menu_playlist_llink">Play all music via Llink</string>
+    <string name="menu_music_operations">Music operations</string>
+    
+    <string name="create_new_folder">Create new folder</string>
+    <string name="folder_name">Folder name</string>
+    <string name="file_name">File name</string>
+    <string name="this_folder_is_empty">This folder is empty.</string>
+    <string name="really_delete">Do you really want to delete %s?</string>
+    <string name="file_deleted">File deleted.</string>
+    <string name="folder_deleted">Folder deleted.</string>
+    <string name="file_renamed">File renamed.</string>
+    <string name="folder_renamed">Folder renamed.</string>
+    <string name="file_moved">File moved.</string>
+    <string name="folder_moved">Folder moved.</string>
+    <string name="file_copied">File copied.</string>
+    <string name="move_title">Select folder to move to</string>
+    <string name="move_button">Move here</string>
+    <string name="copy_title">Select folder to copy to</string>
+    <string name="copy_button">Copy here</string>
+	<string name="deleting_files">Deleting files...</string>
+	
+    <!-- Strings for a multi select feature -->
+	<string name="really_delete_multiselect">Do you really want to delete %d files?</string>
+    <string name="move_button_multiselect">Move</string>
+    <string name="copy_button_multiselect">Copy</string>
+    <string name="delete_button_multiselect">Delete</string>
+    <string name="multiselect_title">Select multiple files</string>
+    <string name="error_selection">Please select one or more file(s).</string>
+	    
+    <!-- Construct a unique file name of a file called %s. -->
+    <string name="copied_file_name">Copy of %s</string>
+    
+    <!-- Construct a unique file name with number %1$d of a file called %2$s. -->
+    <string name="copied_file_name_2">Copy %1$d of %2$s</string>
+    
+    <string name="media_scan_included">This folder will be included in the next media scan.</string>
+    <string name="media_scan_excluded">This folder will be excluded during the next media scan.</string>
+    
+    <string name="error_creating_new_folder">Could not create new folder.</string>
+    <string name="error_deleting_file">Could not delete file.</string>
+    <string name="error_deleting_folder">Could not delete folder \'%s\'.</string>
+    <string name="error_renaming_file">Could not rename file.</string>
+    <string name="error_renaming_folder">Could not rename folder.</string>
+    <string name="error_moving_file">Could not move file.</string>
+    <string name="error_moving_folder">Could not move folder.</string>
+    <string name="error_copying_file">Could not copy file.</string>
+    <string name="error_file_does_not_exists">File does not exist.</string>
+    <string name="error_deleting_child_file">Could not delete child file \'%s\'.</string>
+    <string name="error_generic">An error occurred</string>
+    <string name="error_generic_exception_detail">An error occurred: %1$s</string>
+    <string name="error_media_scan">Could not change media scan settings.</string>
+    
+    <string name="send_not_available">No application available for sending.</string>    
+	<string name="application_not_available">There is no application installed for this file type</string>
+    <string name="no_target_available">No target available to open file. Check your settings</string>	
+		
+	<!-- Custom added-->
+	<string name="error_renaming_general">Could not rename</string>
+	<string name="error_moving_general">Could not move</string>  
+	
+	<string name="text_play_android_myihome">via myiHome</string>
+	<string name="text_play_android_llink">via Llink</string>
+	<string name="text_play_nmt">NMT</string>
+	<string name="text_enqueue_nmt">Enqueue NMT</string>
+	<string name="text_added_into_queu_nmt">Enqueued %s</string>
+	
+	<!-- DavidBox Service -->
+	<string name="title_dialog_error_nmt_service">Error NMT service</string>
+	<string name="show_debug_info_underline"><u>Show debug info</u></string>
+	<string name="debug_info_request_response">Request:\n%1$s\nResponse:%2$s</string>			
+	<string name="error_parsing_data">Error parsing data</string> 
+	<string name="nmt_unavailable">NMT is turned off or IP is unavailable</string>
+	<string name="nmt_no_hard_disk_no_usb_drive">Hard disk not found. USB drive not found</string>
+	<string name="nmt_nothing_playing">Nothing is playing</string>	
+	<string name="nmt_file_extension_not_supported">File type not openable via NMT service</string>
+	
+	<!-- Transmission Service and Activity -->
+	<string name="title_add_torrent_dialog">Add torrent to NMT</string>
+	<string name="button_upload">Upload</string>
+	<string name="button_open_transmission">Open Transmission\n web client</string>
+	<string name="button_close">Close</string>
+	<string name="startWhenAdded">Start when added</string>	
+	<string name="error_uploading">Error uploading.\nCheck NMT is turned on, check IP or adjust port for Transmission web client in settings</string>
+	<string name="successfully_uploaded_started">Successfully uploaded and started: %1$s</string>
+	<string name="successfully_uploaded">Successfully uploaded: %1$s</string>	
+	<string name="connection_host">IP or domain: %1$s</string>
+	<string name="connection_host_notset">IP or domain: Specify host (IP or domain) in Settings</string>
+	<string name="connection_port">Transmission port: %1$s</string>
+	<string name="connection_info">Transmission port is taken from Settings-->Manage web clients-->Transmission. Check authentication if Transmission is secured.</string>	
+	<string name="label_torrent_name">Torrent file, URL or Magnet link</string>
+	<string name="label_torrent_settings">Transmission settings</string>
+	<string name="show_transmission_warning_underline"><u>Transmission warning</u></string>
+
+	<!-- Web clients -->
+	<string name="menu_popout">Pop-out</string>
+	
+	<!-- Music playlist -->
+	<string name="playlist_is_empty">Music playlist is empty.</string>
+	<string name="now_playing">Now playing</string>
+	<string name="played">Played</string>
+	<string name="menu_playlist_remove_item">Remove</string>
+
+	<!-- Services status -->
+	<string name="services_is_empty">No services found.</string>
+	<string name="running">Running</string>
+	<string name="stopped">Stopped</string>	
+	<string name="unknown">Unknown</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+	<string name="refresh">Refresh</string>
+	<string name="service_sending_command">The server may take some time to perform. Click Refresh</string>
+	
+	<!-- Remote control -->
+	<string name="tab_numeric">Numeric</string>
+	<string name="tab_quicknav">Quicknav</string>
+	<string name="tab_advanced">Advanced</string>
+	<string name="menu_keyboard">Keyboard</string>		
+    	    	
+</resources>
