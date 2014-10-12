@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011-2014 Rafael Inigo
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollAddTorrentDialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    	
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/greyBackground">    
+
+    <TextView android:id="@+id/labelTorrentName"
+		style="@style/sectionHeader"        
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_torrent_name"/>    
+    
+    <TextView android:id="@+id/torrentText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView android:id="@+id/labelTorrentSettings"
+		style="@style/sectionHeader"        
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_torrent_settings"/>    
+
+    <TextView
+        android:id="@+id/showTransmissionWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"        
+        android:gravity="center_vertical"        
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@string/show_transmission_warning_underline"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lightBlue" 
+        android:drawableRight="@drawable/icon_info_small"/>
+    
+	<TextView android:id="@+id/helpText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center_vertical|left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/connection_info"
+        android:visibility="gone"/>		
+        
+   	<TextView android:id="@+id/hostText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center_vertical|left"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+   
+	<TextView android:id="@+id/portText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center_vertical|left"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<ProgressBar android:id="@+id/scan_progress" 
+		android:layout_height="wrap_content"		
+		android:layout_width="fill_parent"
+		android:progress="0"
+		android:max="10"
+		android:secondaryProgress="0"
+		android:layout_gravity="center"
+		android:visibility="gone"/>
+			
+    <LinearLayout android:id="@+id/actionsFirstStep"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+        
+        <!-- Start of authentication -->
+        <LinearLayout
+            android:id="@+id/authenticationLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"            
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:gravity="left"            
+            android:visibility="gone" >
+            
+		    <TextView android:id="@+id/authenticationTitle"
+				style="@style/sectionHeader"        
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:text="@string/label_authentication"/>
+		        		        
+			<!-- Include with the authentication -->	            			    
+	        <include android:id="@+id/authenticationInclude" layout="@layout/authentication_dialog"/>
+        </LinearLayout>
+        <!-- End of authentication -->        
+        
+	    <CheckBox android:id="@+id/startWhenAdded"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/startWhenAdded"
+	        android:layout_gravity="center"
+	        android:visibility="gone"/>
+	         
+		<LinearLayout android:id="@+id/actions1"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content">
+	         
+		    <Button android:id="@+id/button_cancel"
+					android:text="@string/cancel"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+		    <Button android:id="@+id/button_upload"
+					android:text="@string/button_upload"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+		 </LinearLayout>
+	</LinearLayout>
+	
+    
+	<LinearLayout android:id="@+id/status_layout"
+	        android:orientation="horizontal" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone">
+	        
+	        <ImageView android:id="@+id/statusImage"
+	                android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:layout_marginLeft="20dip"
+	                android:gravity="left" />
+		    <TextView android:id="@+id/statusText"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:gravity="left"/>
+	</LinearLayout>        
+   
+    <LinearLayout android:id="@+id/actionsSecondStep"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+		android:visibility="gone">
+
+		<Button android:id="@+id/button_open_transmission"
+				android:text="@string/button_open_transmission"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1" />
+	    <Button android:id="@+id/button_close"
+				android:text="@string/button_close"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1" />
+	 </LinearLayout>
+    
+</LinearLayout>
+</ScrollView>

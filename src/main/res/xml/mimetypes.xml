@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007-2008 OpenIntents.org
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<MimeTypes>
+	<!-- Image types -->
+	<!-- List of mimetypes extracted from http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types -->	
+	<type extension=".bmp" mimetype="image/bmp" />
+	<type extension=".cgm" mimetype="image/cgm" />
+	<type extension=".g3" mimetype="image/g3fax" />	
+	<type extension=".gif" mimetype="image/gif" />	
+	<type extension=".ief" mimetype="image/ief" />	
+	<type extension=".jpeg" mimetype="image/jpeg" />	
+	<type extension=".jpg" mimetype="image/jpeg" />
+	<type extension=".jpe" mimetype="image/jpeg" />	
+	<type extension=".ktx" mimetype="image/ktx" />	
+	<type extension=".png" mimetype="image/png" />	
+	<type extension=".btif" mimetype="image/prs.btif" />	
+	<type extension=".svg" mimetype="image/svg+xml" />	
+	<type extension=".svgz" mimetype="image/svg+xml" />	
+	<type extension=".tiff" mimetype="image/tiff" />	
+	<type extension=".tif" mimetype="image/tiff" />	
+	<type extension=".psd" mimetype="image/vnd.adobe.photoshop" />		
+	<type extension=".uvi" mimetype="image/vnd.dece.graphic" />	
+	<type extension=".uvvi" mimetype="image/vnd.dece.graphic" />	
+	<type extension=".uvg" mimetype="image/vnd.dece.graphic" />	
+	<type extension=".uvvg" mimetype="image/vnd.dece.graphic" />	
+	<type extension=".sub" mimetype="image/vnd.dvb.subtitle" />	
+	<type extension=".djvu" mimetype="image/vnd.djvu" />	
+	<type extension=".djv" mimetype="image/vnd.djvu" />	
+	<type extension=".dwg" mimetype="image/vnd.dwg" />	
+	<type extension=".dxf" mimetype="image/vnd.dxf" />	
+	<type extension=".fbs" mimetype="image/vnd.fastbidsheet" />	
+	<type extension=".fpx" mimetype="image/vnd.fpx" />	
+	<type extension=".fst" mimetype="image/vnd.fst" />	
+	<type extension=".mmr" mimetype="image/vnd.fujixerox.edmics-mmr" />	
+	<type extension=".rlc" mimetype="image/vnd.fujixerox.edmics-rlc" />	
+	<type extension=".mdi" mimetype="image/vnd.ms-modi" />	
+	<type extension=".npx" mimetype="image/vnd.net-fpx" />	
+	<type extension=".wbmp" mimetype="image/vnd.wap.wbmp" />	
+	<type extension=".xif" mimetype="image/vnd.xiff" />	
+	<type extension=".webp" mimetype="image/webp" />	
+	<type extension=".ras" mimetype="image/x-cmu-raster" />	
+	<type extension=".cmx" mimetype="image/x-cmx" />	
+	<type extension=".fh" mimetype="image/x-freehand" />	
+	<type extension=".fhc" mimetype="image/x-freehand" />	
+	<type extension=".fh4" mimetype="image/x-freehand" />	
+	<type extension=".fh5" mimetype="image/x-freehand" />	
+	<type extension=".fh7" mimetype="image/x-freehand" />	
+	<type extension=".ico" mimetype="image/x-icon" />	
+	<type extension=".pcx" mimetype="image/x-pcx" />	
+	<type extension=".pic" mimetype="image/x-pict" />	
+	<type extension=".pct" mimetype="image/x-pict" />	
+	<type extension=".pnm" mimetype="image/x-portable-anymap" />	
+	<type extension=".pbm" mimetype="image/x-portable-bitmap" />	
+	<type extension=".pgm" mimetype="image/x-portable-graymap" />	
+	<type extension=".ppm" mimetype="image/x-portable-pixmap" />	
+	<type extension=".rgb" mimetype="image/x-rgb" />	
+	<type extension=".xbm" mimetype="image/x-xbitmap" />	
+	<type extension=".xpm" mimetype="image/x-xpixmap" />	
+	<type extension=".xwd" mimetype="image/x-xwindowdump" />	
+
+	
+	<!-- Audio types -->
+	<type extension=".amr" mimetype="audio/AMR" />
+	<type extension=".adp" mimetype="audio/adpcm" />	
+	<type extension=".au" mimetype="audio/basic" />	
+	<type extension=".snd" mimetype="audio/basic" />	
+	<type extension=".mid" mimetype="audio/midi" />	
+	<type extension=".midi" mimetype="audio/midi" />	
+	<type extension=".kar" mimetype="audio/midi" />	
+	<type extension=".rmi" mimetype="audio/midi" />	
+	<type extension=".mp4a" mimetype="audio/mp4" />	
+	<type extension=".mpga" mimetype="audio/mpeg" />	
+	<type extension=".mp2" mimetype="audio/mpeg" />	
+	<type extension=".mp2a" mimetype="audio/mpeg" />	
+	<type extension=".mp3" mimetype="audio/mpeg" />	
+	<type extension=".m2a" mimetype="audio/mpeg" />	
+	<type extension=".m3a" mimetype="audio/mpeg" />	
+	<type extension=".oga" mimetype="audio/ogg" />	
+	<type extension=".ogg" mimetype="audio/ogg" />	
+	<type extension=".spx" mimetype="audio/ogg" />	
+	<type extension=".uva" mimetype="audio/vnd.dece.audio" />	
+	<type extension=".uvva" mimetype="audio/vnd.dece.audio" />	
+	<type extension=".eol" mimetype="audio/vnd.digital-winds" />	
+	<type extension=".dra" mimetype="audio/vnd.dra" />	
+	<type extension=".dts" mimetype="audio/vnd.dts" />	
+	<type extension=".dtshd" mimetype="audio/vnd.dts.hd" />	
+	<type extension=".lvp" mimetype="audio/vnd.lucent.voice" />	
+	<type extension=".pya" mimetype="audio/vnd.ms-playready.media.pya" />	
+	<type extension=".ecelp4800" mimetype="audio/vnd.nuera.ecelp4800" />	
+	<type extension=".ecelp7470" mimetype="audio/vnd.nuera.ecelp7470" />	
+	<type extension=".ecelp9600" mimetype="audio/vnd.nuera.ecelp9600" />	
+	<type extension=".rip" mimetype="audio/vnd.rip" />	
+	<type extension=".weba" mimetype="audio/webm" />	
+	<type extension=".aac" mimetype="audio/x-aac" />	
+	<type extension=".aif" mimetype="audio/x-aiff" />	
+	<type extension=".aiff" mimetype="audio/x-aiff" />	
+	<type extension=".aifc" mimetype="audio/x-aiff" />	
+	<type extension=".m3u" mimetype="audio/x-mpegurl" />	<!-- Playlist -->
+	<type extension=".m3u8" mimetype="audio/x-mpegurl" />	<!-- Playlist -->
+	<type extension=".wax" mimetype="audio/x-ms-wax" />	
+	<type extension=".wma" mimetype="audio/x-ms-wma" />	
+	<type extension=".ram" mimetype="audio/x-pn-realaudio" />	
+	<type extension=".ra" mimetype="audio/x-pn-realaudio" />	
+	<type extension=".rmp" mimetype="audio/x-pn-realaudio-plugin" />	
+	<type extension=".wav" mimetype="audio/x-wav" />	
+	<!-- CUSTOM, NOT IN THE OFFICIAL LIST -->
+	<type extension=".flac" mimetype="audio/flac" />
+	<type extension=".axa" mimetype="audio/annodex" />	
+	<type extension=".pls" mimetype="audio/x-scpls" />		<!-- Playlist -->
+
+		
+	<!-- Video types -->
+	<type extension=".3gp" mimetype="video/3gpp" />
+	<type extension=".3g2" mimetype="video/3gpp2" />	
+	<type extension=".h261" mimetype="video/h261" />	
+	<type extension=".h263" mimetype="video/h263" />	
+	<type extension=".h264" mimetype="video/h264" />	
+	<type extension=".jpgv" mimetype="video/jpeg" />	
+	<type extension=".jpm" mimetype="video/jpm" />	
+	<type extension=".jpgm" mimetype="video/jpm" />	
+	<type extension=".mj2" mimetype="video/mj2" />	
+	<type extension=".mjp2" mimetype="video/mj2" />	
+	<type extension=".mp4" mimetype="video/mp4" />	
+	<type extension=".mp4v" mimetype="video/mp4" />	
+	<type extension=".mpg4" mimetype="video/mp4" />	
+	<type extension=".mpeg" mimetype="video/mpeg" />	
+	<type extension=".mpg" mimetype="video/mpeg" />	
+	<type extension=".mpe" mimetype="video/mpeg" />	
+	<type extension=".m1v" mimetype="video/mpeg" />	
+	<type extension=".m2v" mimetype="video/mpeg" />	
+	<type extension=".ogv" mimetype="video/ogg" />	
+	<type extension=".qt" mimetype="video/quicktime" />	
+	<type extension=".mov" mimetype="video/quicktime" />	
+	<type extension=".uvh" mimetype="video/vnd.dece.hd" />	
+	<type extension=".uvvh" mimetype="video/vnd.dece.hd" />	
+	<type extension=".uvm" mimetype="video/vnd.dece.mobile" />	
+	<type extension=".uvvm" mimetype="video/vnd.dece.mobile" />	
+	<type extension=".uvp" mimetype="video/vnd.dece.pd" />	
+	<type extension=".uvvp" mimetype="video/vnd.dece.pd" />	
+	<type extension=".uvs" mimetype="video/vnd.dece.sd" />	
+	<type extension=".uvvs" mimetype="video/vnd.dece.sd" />	
+	<type extension=".uvv" mimetype="video/vnd.dece.video" />	
+	<type extension=".uvvv" mimetype="video/vnd.dece.video" />	
+	<type extension=".fvt" mimetype="video/vnd.fvt" />	
+	<type extension=".mxu" mimetype="video/vnd.mpegurl" />	
+	<type extension=".m4u" mimetype="video/vnd.mpegurl" />	
+	<type extension=".pyv" mimetype="video/vnd.ms-playready.media.pyv" />	
+	<type extension=".uvu" mimetype="video/vnd.uvvu.mp4" />	
+	<type extension=".uvvu" mimetype="video/vnd.uvvu.mp4" />	
+	<type extension=".viv" mimetype="video/vnd.vivo" />	
+	<type extension=".webm" mimetype="video/webm" />	
+	<type extension=".f4v" mimetype="video/x-f4v" />	
+	<type extension=".fli" mimetype="video/x-fli" />	
+	<type extension=".flv" mimetype="video/x-flv" />	
+	<type extension=".m4v" mimetype="video/x-m4v" />	
+	<type extension=".asf" mimetype="video/x-ms-asf" />	
+	<type extension=".asx" mimetype="video/x-ms-asf" />	
+	<type extension=".wm" mimetype="video/x-ms-wm" />	
+	<type extension=".wmv" mimetype="video/x-ms-wmv" />	
+	<type extension=".wmx" mimetype="video/x-ms-wmx" />	
+	<type extension=".wvx" mimetype="video/x-ms-wvx" />	
+	<type extension=".avi" mimetype="video/x-msvideo" />	
+	<type extension=".movie" mimetype="video/x-sgi-movie" />
+	<!-- CUSTOM, NOT IN THE OFFICIAL LIST. There is no IETF endorsed MIME type for Matroska files. 
+	But you can use the ones we have defined on our web server -->
+	<type extension=".mka" mimetype="audio/x-matroska" />	
+	<type extension=".mkv" mimetype="video/x-matroska" />	
+	<type extension=".mk3d" mimetype="video/x-matroska-3d" />
+	<type extension=".axv" mimetype="video/annodex" />
+	<type extension=".m2ts" mimetype="video/mpeg" />
+	
+
+	<!-- Web browser types, Text types, etc -->
+	<type extension=".php" mimetype="text/php " />
+	<type extension=".xml" mimetype="text/xml" />	
+	<type extension=".ics" mimetype="text/calendar" />
+	<type extension=".ifb" mimetype="text/calendar" />
+	<type extension=".css" mimetype="text/css" />
+	<type extension=".csv" mimetype="text/csv" />
+	<type extension=".html" mimetype="text/html" />
+	<type extension=".htm" mimetype="text/html" />
+	<type extension=".n3" mimetype="text/n3" />
+	<type extension=".txt" mimetype="text/plain" />
+	<type extension=".text" mimetype="text/plain" />
+	<type extension=".conf" mimetype="text/plain" />
+	<type extension=".def" mimetype="text/plain" />
+	<type extension=".list" mimetype="text/plain" />
+	<type extension=".log" mimetype="text/plain" />
+	<type extension=".in" mimetype="text/plain" />
+	<type extension=".dsc" mimetype="text/prs.lines.tag" />
+	<type extension=".rtx" mimetype="text/richtext" />
+	<type extension=".sgml" mimetype="text/sgml" />
+	<type extension=".sgm" mimetype="text/sgml" />
+	<type extension=".tsv" mimetype="text/tab-separated-values" />
+	<type extension=".t" mimetype="text/troff" />
+	<type extension=".tr" mimetype="text/troff" />
+	<type extension=".roff" mimetype="text/troff" />
+	<type extension=".man" mimetype="text/troff" />
+	<type extension=".me" mimetype="text/troff" />
+	<type extension=".ms" mimetype="text/troff" />
+	<type extension=".ttl" mimetype="text/turtle" />
+	<type extension=".uri" mimetype="text/uri-list" />
+	<type extension=".uris" mimetype="text/uri-list" />
+	<type extension=".urls" mimetype="text/uri-list" />
+	<type extension=".curl" mimetype="text/vnd.curl" />
+	<type extension=".dcurl" mimetype="text/vnd.curl.dcurl" />
+	<type extension=".scurl" mimetype="text/vnd.curl.scurl" />
+	<type extension=".mcurl" mimetype="text/vnd.curl.mcurl" />
+	<type extension=".fly" mimetype="text/vnd.fly" />
+	<type extension=".flx" mimetype="text/vnd.fmi.flexstor" />
+	<type extension=".gv" mimetype="text/vnd.graphviz" />
+	<type extension=".3dml" mimetype="text/vnd.in3d.3dml" />
+	<type extension=".spot" mimetype="text/vnd.in3d.spot" />
+	<type extension=".jad" mimetype="text/vnd.sun.j2me.app-descriptor" />
+	<type extension=".wml" mimetype="text/vnd.wap.wml" />
+	<type extension=".wmls" mimetype="text/vnd.wap.wmlscript" />
+	<type extension=".s" mimetype="text/x-asm" />
+	<type extension=".asm" mimetype="text/x-asm" />
+	<type extension=".c" mimetype="text/x-c" />
+	<type extension=".cc" mimetype="text/x-c" />
+	<type extension=".cxx" mimetype="text/x-c" />
+	<type extension=".cpp" mimetype="text/x-c" />
+	<type extension=".h" mimetype="text/x-c" />
+	<type extension=".hh" mimetype="text/x-c" />
+	<type extension=".dic" mimetype="text/x-c" />	
+	<type extension=".java" mimetype="text/x-java-source" />
+
+	<!-- CUSTOM TEXT -->
+	<type extension=".srt" mimetype="text/plain" />
+
+	<!-- Android specific -->
+	<type extension=".apk" mimetype="application/vnd.android.package-archive" />
+	
+	<!-- APPLICATIONS -->
+	<!-- Package types -->
+	<type extension=".jar" mimetype="application/java-archive" />
+	<type extension=".zip" mimetype="application/zip" />
+	<type extension=".rar" mimetype="application/x-rar-compressed" />
+	<type extension=".gz" mimetype="application/gzip" />	
+	<type extension=".torrent" mimetype="application/x-bittorrent" />
+	<type extension=".7z" mimetype="application/x-7z-compressed" />
+	<type extension=".ogx" mimetype="application/ogg" />
+	<type extension=".anx" mimetype="application/annodex" />
+	<type extension=".pdf" mimetype="application/pdf" />
+	<type extension=".doc" mimetype="application/msword" />
+	<type extension=".pgp" mimetype="application/pgp-encrypted" />
+	<type extension=".rtf" mimetype="application/rtf" />
+	<type extension=".smi" mimetype="application/smil+xml" />
+	<type extension=".smil" mimetype="application/smil+xml" />
+	
+</MimeTypes>

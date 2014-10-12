@@ -1,0 +1,63 @@
+/*
+ * Copyright 2011-2014 Rafael Iñigo
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * 		http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.vikingbrain.dmt.dao;
+
+import java.util.List;
+
+import com.vikingbrain.dmt.pojo.Profile;
+
+/**
+ * Interface for profiles DAO.
+ * 
+ * @author Rafael Iñigo
+ */
+public interface ProfileDAO {
+
+	/**
+	 * Get profile by id.
+	 * @param id the id
+	 * @return the profile
+	 */
+	Profile getById(long id);
+	
+	/**
+	 * Insert new profile.
+	 * @param profile the profile
+	 * @return the row ID
+	 */
+	long insert(Profile profile);
+	
+	/**
+	 * Update existing profile.
+	 * @param profile the profile
+	 * @return the row ID
+	 */
+	int update(Profile profile);
+
+	/**
+	 * Get all profiles.
+	 * @return a list of profiles
+	 */
+	List<Profile> getAll();
+	
+	/**
+	 * Delete a profile by id.
+	 * @param id the id
+	 * @return the row ID
+	 */
+	int delete(long id);
+	
+}
