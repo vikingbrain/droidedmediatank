@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<prerequisites>
 		<maven>3.1.1</maven>
@@ -9,7 +8,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.vikingbrain.dmt</groupId>
 	<artifactId>DroidedMediaTank</artifactId>
-	<version>3.0.0-SNAPSHOT</version>
+	<version>3.0.0</version>
 	<packaging>apk</packaging>
 	<name>DroidedMediaTank</name>
 	<description>Android application that allows remote control and management of Networked Media Tank media streamers. Designed for Popcorn Hour A100, A110, A200, A210, A300, A400, B110, C200, C300, PopBox 3D, PopBox V8, eGreat, Digitek HDX, Kaiboer and others based in NMT system.</description>
@@ -68,7 +67,8 @@
 		<connection>scm:git:git@github.com:vikingbrain/droidedmediatank.git</connection>
 		<url>https://www.github.com/vikingbrain/droidedmediatank.git</url>
 		<developerConnection>scm:git:git@github.com:vikingbrain/droidedmediatank.git</developerConnection>
-	</scm>
+	  <tag>DroidedMediaTank-3.0.0</tag>
+  </scm>
 
 	<licenses>
 		<license>
@@ -250,7 +250,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
