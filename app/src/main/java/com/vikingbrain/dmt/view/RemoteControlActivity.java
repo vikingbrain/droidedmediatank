@@ -240,7 +240,8 @@ public class RemoteControlActivity extends BaseActivity implements
 	  	webSettings.setSupportZoom(true); //Zoom Control on web (You don't need this if ROM supports Multi-Touch	    
 	  	webSettings.setBuiltInZoomControls(true); //Enable Multitouch if supported by ROM
 	  	webSettings.setDomStorageEnabled(true); 
-	 	webSettings.setPluginsEnabled(true);	  		
+//OLD	 	webSettings.setPluginsEnabled(true);
+		webSettings.setPluginState(WebSettings.PluginState.ON);
 	  	webSettings.setUseWideViewPort(true); //normal viewport (such as a normal desktop browser)
 	  		
 	  	webView.setWebChromeClient(webChromeClient);

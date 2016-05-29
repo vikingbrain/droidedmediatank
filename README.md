@@ -11,34 +11,22 @@ Droided Media Tank is an Android application that allows remote control and mana
 
 ## Requirements
 
-java 1.6+, Android 2.1+
+Java 1.6+, Android 2.2.X+
 
 ## Building and installing
 
-The build requires [Maven](http://maven.apache.org/download.html)
-v3.1.1+ and the [Android SDK](http://developer.android.com/sdk/index.html)
-to be installed in your development environment. In addition you'll need to set
-the `ANDROID_HOME` environment variable to the location of your SDK:
+The build requires [Android Studio and SDK Tools](http://developer.android.com/studio)
+to be installed in your development environment.
+
+In addition you'll need to create a file `local.properties` at project root indicating your local Android SDK home path:
 
 ```bash
-export ANDROID_HOME=/opt/tools/android-sdk
+sdk.dir=/Users/Rafa/dev/android-sdk-macosx
 ```
 
 ## Compiling
 
-* Run `mvn clean install` from the `root` directory to build the APK
-
-## Running
-
-* Start an Android emulator manually or with `mvn android:emulator-start`
-* Deploy and run the app in the emulator with `mvn android:deploy android:run`
-
-## Debugging
-* Use `mvn android:deploy android:run -Dandroid.run.debug=true`
-* Start debugging connecting to remote java application [Debugging an Android app built with Maven](https://code.google.com/p/maven-android-plugin/wiki/Debug)
-
-## More maven
-* Type `mvn android:help` to find other useful commands from the `maven-android-plugin`
+* Run `./gradlew build` from the `root` directory to build the APK
 
 ## Problems?
 
