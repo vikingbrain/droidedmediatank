@@ -3,7 +3,7 @@
 [![Bitcoin donation](http://static.vikingbrain.com/images/bitcoin-small.png)](https://blockchain.info/address/13t5W36tcrirhwwMG8WkDDc5aa89acmJe5 "Bitcoin donation") BTC: 13t5W36tcrirhwwMG8WkDDc5aa89acmJe5  
 [![Ethereum donation](http://static.vikingbrain.com/images/ethereum-small.png)](https://www.etherchain.org/account/0x7fC401f9ca6c707177Bc082d193A1C7120659C51 "Ethereum donation") ETH: 0x7fC401f9ca6c707177Bc082d193A1C7120659C51
 
-Droided Media Tank is an Android application that allows remote control and management of Networked Media Tank media streamers. Designed for Popcorn Hour A100, A110, A200, A210, A300, A400, B110, C200, C300, PopBox 3D, PopBox V8, eGreat, Digitek HDX, Kaiboer and others based in NMT system.
+Droided Media Tank is an Android application that allows remote control and management of Networked Media Tank media streamers. Designed for Popcorn Hour A100, A110, A200, A210, A300, A400, B110, C200, C300, PopBox 3D, PopBox V8, JadooTV Jadoo 3, eGreat, Digitek HDX, Kaiboer and others based in NMT system.
 
 ![Dashboard](http://static.vikingbrain.com/dmt/screenshots/screenshot_2.10_1.png)
 ![Remote control](http://static.vikingbrain.com/dmt/screenshots/screenshot_2.9_6.png)
